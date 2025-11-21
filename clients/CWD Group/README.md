@@ -1,5 +1,23 @@
 # CWD Tenant Metering SkySpark Process
 
+## Function Files
+All functions referenced in this document are now available as individual `.axon` files in the `functions/` folder. Each file contains:
+- Function signature with parameters
+- Documentation about purpose and usage
+- Information about dependencies and related functions
+- Context about when/how the function is called
+
+**Available Functions:**
+- `hisFunc_cwd_coolingEnergy.axon` - Aggregates tenant meters by equipGroupingRefs
+- `ecapHelper_MonthlyImport.axon` - Aggregates monthly bill data for entities
+- `view_tenantAllocationPercentages.axon` - Provides tenant allocation percentages
+- `report_monthlyUsagesForReview.axon` - Generates monthly usage report for IMEG review
+- `view_meterValidation_cooling_table_totalMeters.axon` - Totals cooling data from entity meters
+- `view_meterValidation_heating_table_totalMeters.axon` - Totals heating data from entity meters
+- `view_meterValidation_water_table_totalMeters.axon` - Totals water data from entity meters
+- `ecapMonthlyImportPOST.axon` - Formats data for EnergyCAP API
+- `ecapMonthlyImportPOSTAll.axon` - Runs POST for all entity meters in a loop
+
 ## 1. Data Collection
 Data is collected from the building's Niagara system using the Arcbeam connector to IMEG's AWS instance of SkySpark.
 
