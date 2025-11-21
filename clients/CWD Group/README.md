@@ -35,9 +35,11 @@ This is the final step in the process. Once all data has been put into ECAP, it 
 4. Set up the bills to send on the 15th of each month to send the data for the previous month
 5. Make sure the bills will NOT send if data is not present.
 
----
-
 **Example function call:**
 ```
 report_monthlyUsagesForReview(read(site),lastMonth(),["tanner.r.cooper@imegcorp.com"])
+
+---
+
+
 ```
