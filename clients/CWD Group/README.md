@@ -22,11 +22,13 @@ This portion of the process aggregates monthly bills for each entity into a sing
 **Recipients:** Tanner Cooper, Laura Barber
 
 1. Data is aggregated from the following equations:
+   
     - ``` ecapHelper_MonthlyImport ```
     - ``` view_tenantAllocationPercentages ```
-2. The above functions produce ``` report_monthlyUsagesForReview ```
-3. This is done monthly on the first of each month for "lastMonth()"s data
-4. Once Tanner/Laura receive the usages, they email each other indicating approval and investigate any issues.
+  
+3. The above functions produce ``` report_monthlyUsagesForReview ```
+4. This is done monthly on the first of each month for "lastMonth()"s data
+5. Once Tanner/Laura receive the usages, they email each other indicating approval and investigate any issues.
 
 ## 2. Monthly Usages & Allocations for Darrin
 This task will run the same function as Item 1, but now include Darrin from CWD Group as a recipient. To run it, a SkySpark user needs to manually hit "Send."
