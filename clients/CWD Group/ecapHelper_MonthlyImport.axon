@@ -1,0 +1,17 @@
+// ecapHelper_MonthlyImport
+// Purpose: Aggregates monthly bill data for entities into a single table
+// Used by: report_monthlyUsagesForReview, ecapMonthlyImportPOST
+//
+// This function produces a table of usage, cost and plant allocation
+// for each entity (Commercial, Residential, Hotel, Whole Foods) for each month called.
+//
+// Called monthly on the 1st for previous month's data
+// Data sources:
+// - view_meterValidation_cooling_table_totalMeters
+// - view_meterValidation_heating_table_totalMeters
+// - view_meterValidation_water_table_totalMeters
+
+(site, monthRange) => do
+  // Function implementation goes here
+  // Returns table with usage, cost and plant allocation per entity
+end

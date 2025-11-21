@@ -1,0 +1,13 @@
+// view_meterValidation_cooling_table_totalMeters
+// Purpose: Totals cooling data from Entity Meters for the month
+// Used by: ecapHelper_MonthlyImport
+//
+// This function aggregates data from Entity Meters (Commercial, Residential,
+// Hotel, Whole Foods) and totals up cooling usage for the specified month.
+//
+// Part of the Monthly ECAP Bill Data Push process
+
+(site, monthRange) => do
+  // Function implementation goes here
+  // Returns total cooling meter data for all entities
+end

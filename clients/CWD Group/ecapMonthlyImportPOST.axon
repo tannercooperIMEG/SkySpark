@@ -1,0 +1,14 @@
+// ecapMonthlyImportPOST
+// Purpose: Formats usage/cost data for EnergyCAP API
+// Used by: ecapMonthlyImportPOSTAll
+//
+// This function takes cost/usage data from ecapHelper_MonthlyImport
+// and puts it into a format that EnergyCAP can understand.
+// This function can be run independently on a point.
+//
+// Part of the Monthly ECAP Bill Data Push process
+
+(point, monthRange) => do
+  // Function implementation goes here
+  // Formats and POSTs data to EnergyCAP
+end
