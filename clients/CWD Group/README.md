@@ -3,9 +3,10 @@
 ## 1. Data Collection
 Data is collected from the building's Niagara system using the Arcbeam connector to IMEG's AWS instance of SkySpark.
 
-1. Points to be collect data were determined from the documentation provided by CWD Group to IMEG [LINK]
-2. Each point is configured to collect data every 15minutes
-3. In the event that a point has a history/trend enabled, those are pulled in as backups -- ADD FREQUENCY
+1. Points to be collect data were determined from the documentation provided by CWD Group to IMEG [LINK].
+2. These points reside on a piece of equipment OR a tenant meter (e.g Cooling Tower 1, or Starbucks BTU Meter)
+3. Each point is configured to collect data every 15minutes
+4. In the event that a point has a history/trend enabled, those are pulled in as backups -- ADD FREQUENCY
 
 ## 2. Data Aggregation
 Each Tenant Meter is its own point/equipment (e.g. Starbucks Heating Energy) that collects data. To understand which meter goes to which usage, the equipment have been aggregated into equipGroupingRefs (e.g. "Commercial").
