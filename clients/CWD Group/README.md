@@ -14,7 +14,7 @@ Each Tenant Meter is its own point/equipment (e.g. Starbucks Heating Energy) tha
 These equipGroupingRefs, or Tenant Types, is aggregated into a Total Meter (e.g. Commercial Cooling Energy). These points are computed points running ``` hisFunc_cwd_coolingEnergy ```, which aggregates all tenant meters underneath a Tenant Type, or Total Meter.
 
 ## 1. Monthly Usages & Allocations for IMEG Review
-This function aggregates monthly bills for each entity into a single table. It sends out on the first of each month with data for the previous month to Laura Barber and Tanner Cooper. They are declared as email recipients in the task expression.
+This portion of the process aggregates monthly bills for each entity into a single table for simple review. It sends out on the first of each month with data for the previous month to Laura Barber and Tanner Cooper. They are declared as email recipients in the task expression.
 
 **Date:** 1st of each month
 **Recipients:** Tanner Cooper, Laura Barber
@@ -24,7 +24,7 @@ This function aggregates monthly bills for each entity into a single table. It s
 3. Once Tanner/Laura receive the usages, they email each other indicating approval and investigate any issues.
 
 ## 2. Monthly Usages & Allocations for Darrin
-This task will run the same function as Item 1, but now include Darrin from CWD Group as a recipient.
+This task will run the same function as Item 1, but now include Darrin from CWD Group as a recipient. To run it, a SkySpark user needs to manually hit "Send."
 
 ## 3. Monthly ECAP Bill Data Push
 This represents the monthly bill data for each Entity (Commercial Water for example). This generates the bill in EnergyCAP that the entities will receive. It will only run once IMEG and Darrin have approved of the totals first.
