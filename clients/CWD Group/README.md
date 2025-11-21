@@ -19,7 +19,7 @@ This function aggregates monthly bills for each entity into a single table. It s
 **Date:** 1st of each month
 **Recipients:** Tanner Cooper, Laura Barber
 
-1. Data is aggregated from ecapHelper_MonthlyImport & view_tenantAllocationPercentages funcs into the report_monthlyUsagesForReview func.
+1. Data is aggregated from ``` ecapHelper_MonthlyImport ``` & ``` view_tenantAllocationPercentages ``` funcs into the ``` report_monthlyUsagesForReview func ```.
 2. This is done monthly on the first of each month for "lastMonth()"s data
 3. Once Tanner/Laura receive the usages, they email each other indicating approval and investigate any issues.
 
