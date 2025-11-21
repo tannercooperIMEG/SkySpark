@@ -7,6 +7,11 @@ Data is collected from the building's Niagara system using the Arcbeam connector
 2. Each point is configured to collect data every 15minutes
 3. In the event that a point has a history/trend enabled, those are pulled in as backups -- ADD FREQUENCY
 
+## 2. Data Aggregation
+Each Tenant Meter is its own point/equipment (e.g. Starbucks Heating Energy) that collects data. To understand which meter goes to which usage, the equipment have been aggregated into equipGroupingRefs (e.g. "Commercial").
+
+These equipGroupingRefs, or Tenant Types, is aggregated into a Total Meter (e.g. Commercial Cooling Energy). These points are computed points running ``` hisFunc_cwd_coolingEnergy ```, which aggregates all tenant meters underneath a Tenant Type, or Total Meter.
+
 ## 1. Monthly Usages & Allocations for IMEG Review
 This function aggregates monthly bills for each entity into a single table. It sends out on the first of each month with data for the previous month to Laura Barber and Tanner Cooper. They are declared as email recipients in the task expression.
 
