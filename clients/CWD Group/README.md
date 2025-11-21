@@ -38,5 +38,4 @@ This is the final step in the process. Once all data has been put into ECAP, it 
 **Example function call:**
 ```
 report_monthlyUsagesForReview(read(site),lastMonth(),["tanner.r.cooper@imegcorp.com"])
-
 ```
