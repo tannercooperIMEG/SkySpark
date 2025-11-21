@@ -1,0 +1,17 @@
+// report_monthlyUsagesForReview
+// Purpose: Generates monthly usage and allocation report for IMEG review
+// Scheduled: 1st of each month for previous month's data
+// Recipients: Tanner Cooper, Laura Barber (and optionally Darrin from CWD Group)
+//
+// This function aggregates monthly bills for each entity into a single table
+// for simple review. It uses data from:
+// - ecapHelper_MonthlyImport
+// - view_tenantAllocationPercentages
+//
+// Example call:
+// report_monthlyUsagesForReview(read(site), lastMonth(), ["tanner.r.cooper@imegcorp.com"])
+
+(site, monthRange, emailRecipients) => do
+  // Function implementation goes here
+  // Produces report table and sends to email recipients
+end

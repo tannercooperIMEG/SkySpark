@@ -1,0 +1,13 @@
+// view_meterValidation_water_table_totalMeters
+// Purpose: Totals water data from Entity Meters for the month
+// Used by: ecapHelper_MonthlyImport
+//
+// This function aggregates data from Entity Meters (Commercial, Residential,
+// Hotel, Whole Foods) and totals up water usage for the specified month.
+//
+// Part of the Monthly ECAP Bill Data Push process
+
+(site, monthRange) => do
+  // Function implementation goes here
+  // Returns total water meter data for all entities
+end

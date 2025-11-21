@@ -1,0 +1,14 @@
+// ecapMonthlyImportPOSTAll
+// Purpose: Runs ecapMonthlyImportPOST for all entity meters in a loop
+// Scheduled: Monthly task
+//
+// This function calls ecapMonthlyImportPOST for all entities
+// (Commercial, Residential, Hotel, Whole Foods) in a single loop.
+//
+// Part of the Monthly ECAP Bill Data Push process
+// Set up to run as a scheduled task
+
+(site, monthRange) => do
+  // Function implementation goes here
+  // Loops through all entities and calls ecapMonthlyImportPOST for each
+end

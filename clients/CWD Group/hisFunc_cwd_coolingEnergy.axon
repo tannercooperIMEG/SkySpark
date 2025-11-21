@@ -1,0 +1,11 @@
+// hisFunc_cwd_coolingEnergy
+// Purpose: Aggregates all tenant meters underneath a Tenant Type (equipGroupingRefs)
+// Used by: Computed points for Total Meters (e.g., Commercial Cooling Energy)
+//
+// This function is run on computed points to aggregate tenant meter data
+// for cooling energy consumption across different tenant types.
+
+(site, dateRange) => do
+  // Function implementation goes here
+  // Aggregates cooling energy from tenant meters under equipGroupingRefs
+end

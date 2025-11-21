@@ -1,0 +1,11 @@
+// view_tenantAllocationPercentages
+// Purpose: Provides tenant allocation percentages for billing
+// Used by: report_monthlyUsagesForReview
+//
+// This function is called monthly on the 1st for previous month's data
+// to aggregate allocation percentages for each tenant
+
+(site) => do
+  // Function implementation goes here
+  // Returns tenant allocation percentage data
+end
