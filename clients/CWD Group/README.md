@@ -15,6 +15,9 @@ These equipGroupingRefs, or Tenant Types, is aggregated into a Total Meter (e.g.
 
 # CWD Tenant Metering Monthly Process
 
+## Helpful Links:
+  -- http://34.212.16.148/ui/cwdGroup_cloud?view=taskDebug#623530b3700d
+
 ## 1. Monthly Usages & Allocations for IMEG Review
 This portion of the process aggregates monthly bills for each entity into a single table for simple review. It sends out on the first of each month with data for the previous month to Laura Barber and Tanner Cooper. They are declared as email recipients in the task expression.
 
