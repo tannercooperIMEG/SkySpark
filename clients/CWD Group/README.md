@@ -47,10 +47,12 @@ This represents the monthly bill data for each Entity (Commercial Water for exam
    - **Heating** -- ```view_meterValidation_heating_table_totalMeters```
    - **Water** -- ```view_meterValidation_water_table_totalMeters```
 
-4.The data from 2 is called in the ecapHelper_MonthlyImport func. This produces a table of usage, cost and plant allocation for each entity for each month called.
+3. The data from 2 is called in the ecapHelper_MonthlyImport func. This produces a table of usage, cost and plant allocation for each entity for each month called.
+
    - For example, Residential Water outputs this table
-6. This data is called by ecapMonthlyImportPOST. This function takes the cost/usage data and puts it into a format that EnergyCAP can understand. This function can be run independently on a point.
-7. The data from ecapMonthlyImportPOST is then called each month in the ecapMonthlyImportPOSTAll function. This is set up to run as a task and just runs all of these tasks in a single loop.
+  
+7. This data is called by ecapMonthlyImportPOST. This function takes the cost/usage data and puts it into a format that EnergyCAP can understand. This function can be run independently on a point.
+8. The data from ecapMonthlyImportPOST is then called each month in the ecapMonthlyImportPOSTAll function. This is set up to run as a task and just runs all of these tasks in a single loop.
 
 ## ECAP – Bills to Client
 This is the final step in the process. Once all data has been put into ECAP, it will generate bills and send them to the correct people.
