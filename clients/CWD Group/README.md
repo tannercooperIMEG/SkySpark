@@ -13,7 +13,9 @@ Each Tenant Meter is its own point/equipment (e.g. Starbucks Heating Energy) tha
 
 These equipGroupingRefs, or Tenant Types, is aggregated into a Total Meter (e.g. Commercial Cooling Energy). These points are computed points running ``` hisFunc_cwd_coolingEnergy ```, which aggregates all tenant meters underneath a Tenant Type, or Total Meter.
 
-## 1. Monthly Usages & Allocations for IMEG Review
+# CWD Tenant Metering SkySpark Process
+
+### 1. Monthly Usages & Allocations for IMEG Review
 This portion of the process aggregates monthly bills for each entity into a single table for simple review. It sends out on the first of each month with data for the previous month to Laura Barber and Tanner Cooper. They are declared as email recipients in the task expression.
 
 **Date:** 1st of each month
