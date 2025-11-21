@@ -1,4 +1,4 @@
-# CWD Data Processes
+# CWD Tenant Metering SkySpark Process
 
 ## 1. Monthly Usages & Allocations for IMEG Review
 This function aggregates monthly bills for each entity into a single table. It sends out on the first of each month with data for the previous month to Laura Barber and Tanner Cooper. They are declared as email recipients in the task expression.
