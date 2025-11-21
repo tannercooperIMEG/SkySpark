@@ -1,5 +1,12 @@
 # CWD Tenant Metering SkySpark Process
 
+## 1. Data Collection
+Data is collected from the building's Niagara system using the Arcbeam connector to IMEG's AWS instance of SkySpark.
+
+1. Points to be collect data were determined from the documentation provided by CWD Group to IMEG [LINK]
+2. Each point is configured to collect data every 15minutes
+3. In the event that a point has a history/trend enabled, those are pulled in as backups -- ADD FREQUENCY
+
 ## 1. Monthly Usages & Allocations for IMEG Review
 This function aggregates monthly bills for each entity into a single table. It sends out on the first of each month with data for the previous month to Laura Barber and Tanner Cooper. They are declared as email recipients in the task expression.
 
