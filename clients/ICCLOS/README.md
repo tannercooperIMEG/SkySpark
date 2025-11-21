@@ -1,3 +1,11 @@
+# ICCLOS DATA COLLECTION PROCESS
+
+## Momentus
+
+## Submeters
+
+# ICCLOS EVENT USAGE CALCULATION PROCESS
+
 1. Event Calculations for IMEG to Review
 This function aggregates the events at ICCLOS for the past month and their utility usage and sends to IMEG for a sanity check.
 
