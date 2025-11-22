@@ -37,5 +37,5 @@ a.	A demand table is also included to help verify values.
 b.	In the email is included total calculated utility cost and how that compares to past utility usages for ICCLOS
 5.	Laura/Tanner indicates approval and we move to task 2
 
-2. Monthly Usages & Allocations for Tom to Review
-This task will run the same function as Item 1, but now include Tom Boyle as a recipient to approve.
+## Monthly Usages & Allocations for Tom to Review
+This task will run the same function as Process 1, but now include Tom Boyle as a recipient to approve.
