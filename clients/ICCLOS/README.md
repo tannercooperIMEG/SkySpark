@@ -10,6 +10,12 @@
 2. That data is stored as one of 3 SkySpark recs (event, bookings, spaces)
 
 ## Submeters
+Data from submeters is collected via BACnet from the meters themselves, or from Metasys. We are collecting data for the following utilities:
+
+- Electricity
+- Chilled Water
+- Steam
+- Gas (not yet at ICCLOS)
 
 # ICCLOS EVENT USAGE CALCULATION PROCESS
 
