@@ -2,7 +2,7 @@
 
 ## Momentus
 1. Data from Momentus is brought in on a daily basis using ```task_createMomentusRecs```
-   - Events
+   - Events --> ```view_momentusEventsV2(conn,thisWeek(),10000)```
    - Spaces
    - Bookings
 
