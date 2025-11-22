@@ -15,7 +15,7 @@ Data from submeters is collected via BACnet from the meters themselves, or from 
 - Electricity
 - Chilled Water
 - Steam
-- Gas (not yet at ICCLOS)
+- Gas (not yet at ICC)
 
 # ICCLOS EVENT USAGE CALCULATION PROCESS
 
