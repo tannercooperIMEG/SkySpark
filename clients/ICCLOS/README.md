@@ -2,9 +2,12 @@
 
 ## Momentus
 1. Data from Momentus is brought in on a daily basis using ```task_createMomentusRecs```
+
    - Events --> ```view_momentusEventsV2(conn,thisWeek(),10000)```, ```action_createMomentusRecs_V2(events)```
    - Spaces --> ```view_momentusSpacesV2(conn)```, ```action_createMomentusRecs_V2(spaces)```
    - Bookings --> ```view_momentusBookingsV2(conn,e->eventID,thisWeek(),10000)```, ```action_createMomentusRecs_V2(bookings)```
+
+2. That data is stored as one of 3 SkySpark recs (event, bookings, spaces)
 
 ## Submeters
 
