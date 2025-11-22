@@ -19,11 +19,11 @@ Data from submeters is collected via BACnet from the meters themselves, or from 
 
 # ICCLOS EVENT USAGE CALCULATION PROCESS
 
-1. Event Calculations for IMEG to Review
-This function aggregates the events at ICCLOS for the past month and their utility usage and sends to IMEG for a sanity check.
+## Event Calculations for IMEG to Review
+This process aggregates the events at ICCLOS for the past month and their utility usage and sends to IMEG for a sanity check.
 
-Date: 1st of each month
-Recipients: Tanner Cooper, Laura Barber
+- Date: 1st of each month
+- Recipients: Tanner Cooper, Laura Barber
 
 1.	Event data is pulled from view_eventTracking_events into report_eventUsageSummary
 2.	The utility usage for each event is calculated using the below functions:
