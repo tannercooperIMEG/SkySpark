@@ -2,6 +2,9 @@
 
 ## Momentus
 1. Data from Momentus is brought in on a daily basis using ```task_createMomentusRecs```
+   - Events
+   - Spaces
+   - Bookings
 
 ## Submeters
 
